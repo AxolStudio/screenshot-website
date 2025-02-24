@@ -23,13 +23,13 @@ inputs:
   makeartifact:
     description: 'Make Artifact'
     required: false
-    default: false
+    default: 'false'
 outputs:
   path:
     description: 'The filesystem path to the website screenshot'
 runs:
   using: 'node20'
-  main: 'dist/index.js'
+  main: 'index.js'
 branding:
   icon: 'camera'
-  color: 'pink'
+  color: 'purple'

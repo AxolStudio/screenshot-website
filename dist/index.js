@@ -2799,6 +2799,7 @@ const whichChrome = __webpack_require__(458);
 
 async function run() {
   try {
+    core.debug('test');
     // Get inputs: source, destination, and anything else
     const { source, destination: destFile, ...inputs } = loadInputs();
     core.debug(`source is ${source}`);
